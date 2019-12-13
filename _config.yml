@@ -1,7 +1,7 @@
 # Site Settings
 
-# theme: bulma-clean-theme
-remote_theme: chrisrhymes/bulma-clean-theme
+theme: bulma-clean-theme
+# remote_theme: chrisrhymes/bulma-clean-theme
 
 title: TraffiX.ai
 tagline: UW
