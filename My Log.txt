@@ -1,0 +1,18 @@
+Installation Log:
+1. install ruby: https://jekyllrb.com/docs/installation/windows/
+	1.1 run jekyll -v --> success if you can see the jekyll (version)
+2. install git (this may cause error: There was an error while loading `bulma-clean-theme.gemspec`: No such file or directory - git ls-files -z. Bundler cannot continue.)
+3. Could not find rouge-3.11.1 in any of the sources : Run `bundle install` to install missing gems.
+4. Finished.
+	4.1 if encounter : C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/eventmachine-1.2.7-x64-mingw32/lib/rubyeventmachine.rb:2:in `require': cannot load such file -- 2.6/rubyeventmachine (LoadError)
+	    Then do as follows: (https://github.com/oneclick/rubyinstaller2/issues/96)
+			gem uninstall eventmachine
+			gem install eventmachine --platform ruby
+Finally, run: bundle exec jekyll serve --livereload
+
+
+In __config.yml on the GitHub repo, we should use:
+
+baseurl: "/TRAFFIX"
+url: "https://zhiyongc.github.io"
+

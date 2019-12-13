@@ -1,0 +1,82 @@
+---
+---
+$primary: #000080;
+$info: 	#4169E1;
+$pagination-current-background-color: $info;
+$pagination-current-border-color: $info;
+
+
+
+// Import Main CSS file from theme
+@import "main";
+
+.percent {
+  width: 60%;
+  //background-color: silver;
+  //border: 1px solid red;
+  //text-align: center;
+  margin: 0 auto;
+}
+
+
+.hero {
+    .title,
+    .subtitle {
+        text-shadow: 1px 1px rgba($primary, 0.5);
+        animation: appear 1s;
+    }
+}
+
+div.highlight {
+    margin-bottom: 1rem;
+}
+
+kbd {
+  border-style: outset;
+  border-width: 2px;
+  border-color: #999999;
+  border-radius: 6px;
+  padding: 3px;
+  font-size: 75%;
+  font-weight: 475;
+  background-color: #f8f8f8;
+  margin: 2px;
+  white-space: nowrap;
+}
+
+/*  table style
+table, td, th {
+        border: 1px solid gray;
+        }
+*/
+
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+        transform: translateY(1rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+TraffiX {
+  font-family:Courier;
+  background-color: #F1F1F1;
+  font-weight:bold;
+  border-style: solid;
+  border-color: grey;
+  border-width: thin;
+  border-radius: 4px;
+}
+
+highlight {
+  background-color: #F0F0F0;
+  font-weight:bold;
+  border-color: grey;
+  //border-style: solid;
+  //border-width: thin;
+  //border-radius: 4px;
+}

@@ -1,0 +1,29 @@
+style: is-light
+height: is-medium
+items:
+
+  - title: Tutorials
+    subtitle:  
+    icon: fa-space-shuttle
+    description: >
+      Tutorials of deep learning-based traffic forecasting.
+    call_to_action_name: Tutorials
+    call_to_action_link: /pages/tutorials/
+
+  - title: Benchmarks
+    subtitle:   
+    icon: fa-wrench
+    description: >
+      Benchmarks of traffic forecating models.
+
+    call_to_action_name: Benchmarks
+    call_to_action_link: /pages/benchmarks/
+
+  - title: GitHub
+    subtitle:   
+    icon: fab fa-github
+    description: >
+      GitHub repositories of the tutorials and source code.
+
+    call_to_external_link: GitHub
+    call_to_action_link: "https://github.com/zhiyongc/TRAFFIX"

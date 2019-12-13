@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Benchmarks - TraffiX.ai</title>
+    <link rel="stylesheet" href="/TraffiX.ai/assets/css/app.css">
+    <link rel="shortcut icon" type="image/png" href="/TraffiX.ai/favicon.png" />
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+    <!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Benchmarks | TraffiX.ai</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Benchmarks" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="TraffiX.ai is a Platform for Evaluating and Sharing Traffic Forecasting Datasets and Models" />
+<meta property="og:description" content="TraffiX.ai is a Platform for Evaluating and Sharing Traffic Forecasting Datasets and Models" />
+<link rel="canonical" href="http://localhost:4000/TraffiX.ai/pages/benchmarks/" />
+<meta property="og:url" content="http://localhost:4000/TraffiX.ai/pages/benchmarks/" />
+<meta property="og:site_name" content="TraffiX.ai" />
+<script type="application/ld+json">
+{"description":"TraffiX.ai is a Platform for Evaluating and Sharing Traffic Forecasting Datasets and Models","@type":"WebPage","url":"http://localhost:4000/TraffiX.ai/pages/benchmarks/","headline":"Benchmarks","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<!-- head scripts --></head>
+
+  <body>
+    
+<nav class="navbar is-primary" >
+    <div class="container">
+        <div class="navbar-brand">
+            <a href="/TraffiX.ai/" class="navbar-item">
+                TraffiX.ai
+            </a>
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu" id="navMenu">
+            <div class="navbar-start">
+                <!-- <a href="/TraffiX.ai/" class="navbar-item ">Home</a> -->
+                
+                
+                    
+                    <a href="/TraffiX.ai/pages/getstarted" class="navbar-item ">Get Started</a>
+                    
+                
+                    
+                    <a href="/TraffiX.ai/pages/tutorials/" class="navbar-item ">Tutorial</a>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a href="/TraffiX.ai/pages/benchmarks" class="navbar-link ">Benchmaks</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/TraffiX.ai/pages/bm/bm_RNN" class="navbar-item ">RNN Models</a>
+                            
+                            <a href="/TraffiX.ai/pages/bm/bm_GNN" class="navbar-item ">Graph Neural Networks</a>
+                            
+                            <a href="/TraffiX.ai/pages/bm/bm_S2S" class="navbar-item ">Seq-2-Seq Models</a>
+                            
+                            <a href="/TraffiX.ai/pages/bm/bm_Others" class="navbar-item ">Others</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a href="/TraffiX.ai/pages/resources" class="navbar-link ">Resources</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/TraffiX.ai/pages/rs/datasets" class="navbar-item ">Datasets</a>
+                            
+                            <a href="/TraffiX.ai/pages/rs/publications" class="navbar-item ">Publications</a>
+                            
+                            <a href="/TraffiX.ai/blog" class="navbar-item ">Blogs</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <a href="/TraffiX.ai/pages/about/" class="navbar-item ">About</a>
+                    
+                
+                
+            </div>
+        </div>
+    </div>
+</nav>
+
+    
+    
+
+
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                
+                <div class="column is-4-desktop is-4-tablet">
+                    
+
+<aside class="menu">
+
+    <p class="menu-label">Benchmark Menu</p>
+    <ul class="menu-list">
+        
+        <li>
+            <a href="/TraffiX.ai/pages/benchmarks" class="">Benchmarks</a>
+            
+            <ul>
+                
+                <li><a href="/TraffiX.ai/pages/bm/bm_RNN" class="">RNN and Its Variants</a></li>
+                
+                <li><a href="/TraffiX.ai/pages/bm/bm_GNN" class="">Graph Neural Networks</a></li>
+                
+                <li><a href="/TraffiX.ai/pages/bm/bm_S2S" class="">Sequence to Sequence (Seq-2-Seq)</a></li>
+                
+                <li><a href="/TraffiX.ai/pages/bm/bm_Others" class="">Others</a></li>
+                
+            </ul>
+            
+        </li>
+            
+    </ul>
+
+</aside>
+                </div>
+                
+                <div class="column is-8">
+                    
+                    
+                    
+<div class="content">
+    <h2 id="benchmarks"><span style="font-family:Courier; font-size:1em;">Benchmarks</span></h2>
+
+<h3 id="mean-absolute-error-mae"><span style="font-family:Courier; font-size:1em;">Mean Absolute Error (MAE)</span></h3>
+
+<p>\begin{equation}
+    MAE = \frac{1}{N}\sum_{i=1}^N |y_i - \hat{y}_i|
+\end{equation}</p>
+
+<h3 id="mean-absolute-percentile-error-mape"><span style="font-family:Courier; font-size:1em;">Mean Absolute Percentile Error (MAPE)</span></h3>
+
+<p>\begin{equation}
+    MAPE = \frac{1}{N}\sum_{i=1}^N|\frac{y_i - \hat{y}_i}{y_i}|
+\end{equation}</p>
+
+<h3 id="root-mean-square-error-rmse"><span style="font-family:Courier; font-size:1em;">Root Mean Square Error (RMSE)</span></h3>
+
+<p>\begin{equation}
+    RMSE = (\frac{1}{N} \sum_{i=1}^N {|y_i - \hat{y}_i|}^2 )^{\frac{1}{2}}
+\end{equation}</p>
+
+</div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+    <script src="/TraffiX.ai/assets/js/app.js" type="text/javascript"></script><!-- footer scripts --><div style="width:200;height:200;display:none">
+        <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?d=MbTq_JHAH8cjWy0qh0VfQj3pvINeej3QmGs8TJsgUuk&cl=ffffff&w=a"></script>
+    </div>
+  </body>
+</html>
+

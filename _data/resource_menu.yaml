@@ -1,0 +1,11 @@
+- label: Resource Menu
+  items:
+    - name: Resources
+      link: /pages/resources
+      items:
+        - name: Datasets
+          link: /pages/rs/datasets
+        - name: Publications
+          link: /pages/rs/publications
+        - name: Blogs
+          link: /blog

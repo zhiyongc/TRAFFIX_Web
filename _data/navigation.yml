@@ -1,0 +1,55 @@
+- name: Get Started
+  link: /pages/getstarted
+  icon: fa-smile-wink
+- name: Tutorial
+  link: /pages/tutorials/
+  icon: fa-smile-wink
+- name: Benchmaks
+  link: /pages/benchmarks
+  icon: fa-square
+  dropdown:
+    - name: RNN Models
+      link: /pages/bm/bm_RNN
+      icon: fa-smile-wink
+    - name: Graph Neural Networks 
+      link: /pages/bm/bm_GNN
+      icon: fa-square
+    - name: Seq-2-Seq Models
+      link: /pages/bm/bm_S2S
+    - name: Others
+      link: /pages/bm/bm_Others
+
+# - name: Benchmaks
+#   link: /products/
+#   icon: fa-square
+#   dropdown:
+#     - name: Page With Sidebar
+#       link: /page-1/
+#       icon: fa-smile-wink
+#     - name: Page No Sidebar
+#       link: /page-2/
+#       icon: fa-square
+#     - name: Page With Menubar
+#       link: /page-3/
+#     - name: Page With Tabs
+#       link: /page-4/
+#     - name: Page Without Footer
+#       link: /page-5/
+#     - name: Page Without Hero
+#       link: /page-without-hero/
+#     - name: Landing Page With Callouts
+#       link: /landing/
+- name: Resources
+  link: /pages/resources
+  icon: fa-square
+  dropdown:
+    - name: Datasets
+      link: /pages/rs/datasets
+      icon: fa-smile-wink
+    - name: Publications 
+      link: /pages/rs/publications
+      icon: fa-square
+    - name: Blogs
+      link: /blog
+- name: About
+  link: /pages/about/

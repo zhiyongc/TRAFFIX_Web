@@ -1,0 +1,30 @@
+style: is-light
+height: is-medium
+items:
+
+  - title: Online Code
+    subtitle:   
+    icon: fas fa-cogs
+    description: >
+      Documentation of traffic forecating models.
+
+    call_to_external_link: Online Demo
+    call_to_action_link: "https://colab.research.google.com/github/zhiyongc/TRAFFIX/blob/master/Run_Demo_Train_LSTM.ipynb"
+
+  - title: GitHub repository
+    subtitle:   
+    icon: fab fa-github
+    description: >
+      GitHub repositories of the tutorials and source code.
+
+    call_to_external_link: GitHub
+    call_to_action_link: "https://github.com/zhiyongc/TRAFFIX"
+
+  - title: Contribute
+    subtitle:   
+    icon: fas fa-upload
+    description: >
+      Documentation of traffic forecating models.
+
+    call_to_action_name: Contribute
+    call_to_action_link: /pages/about

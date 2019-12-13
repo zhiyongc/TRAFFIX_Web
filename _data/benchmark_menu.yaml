@@ -1,0 +1,13 @@
+- label: Benchmark Menu
+  items:
+    - name: Benchmarks
+      link: /pages/benchmarks
+      items:
+        - name: RNN and Its Variants
+          link: /pages/bm/bm_RNN
+        - name: Graph Neural Networks
+          link: /pages/bm/bm_GNN
+        - name: Sequence to Sequence (Seq-2-Seq)
+          link: /pages/bm/bm_S2S
+        - name: Others
+          link: /pages/bm/bm_Others

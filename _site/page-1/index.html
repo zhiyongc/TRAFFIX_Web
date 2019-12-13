@@ -1,0 +1,744 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Page With Sidebar - TraffiX.ai</title>
+    <link rel="stylesheet" href="/TraffiX.ai/assets/css/app.css">
+    <link rel="shortcut icon" type="image/png" href="/TraffiX.ai/favicon.png" />
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+    <!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Page With Sidebar | TraffiX.ai</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Page With Sidebar" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="TraffiX.ai is a Platform for Evaluating and Sharing Traffic Forecasting Datasets and Models" />
+<meta property="og:description" content="TraffiX.ai is a Platform for Evaluating and Sharing Traffic Forecasting Datasets and Models" />
+<link rel="canonical" href="http://localhost:4000/TraffiX.ai/page-1/" />
+<meta property="og:url" content="http://localhost:4000/TraffiX.ai/page-1/" />
+<meta property="og:site_name" content="TraffiX.ai" />
+<script type="application/ld+json">
+{"description":"TraffiX.ai is a Platform for Evaluating and Sharing Traffic Forecasting Datasets and Models","@type":"WebPage","url":"http://localhost:4000/TraffiX.ai/page-1/","headline":"Page With Sidebar","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<!-- head scripts --></head>
+
+  <body>
+    
+<nav class="navbar is-primary" >
+    <div class="container">
+        <div class="navbar-brand">
+            <a href="/TraffiX.ai/" class="navbar-item">
+                TraffiX.ai
+            </a>
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu" id="navMenu">
+            <div class="navbar-start">
+                <!-- <a href="/TraffiX.ai/" class="navbar-item ">Home</a> -->
+                
+                
+                    
+                    <a href="/TraffiX.ai/pages/getstarted" class="navbar-item ">Get Started</a>
+                    
+                
+                    
+                    <a href="/TraffiX.ai/pages/tutorials/" class="navbar-item ">Tutorial</a>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a href="/TraffiX.ai/pages/benchmarks" class="navbar-link ">Benchmaks</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/TraffiX.ai/pages/bm/bm_RNN" class="navbar-item ">RNN Models</a>
+                            
+                            <a href="/TraffiX.ai/pages/bm/bm_GNN" class="navbar-item ">Graph Neural Networks</a>
+                            
+                            <a href="/TraffiX.ai/pages/bm/bm_S2S" class="navbar-item ">Seq-2-Seq Models</a>
+                            
+                            <a href="/TraffiX.ai/pages/bm/bm_Others" class="navbar-item ">Others</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a href="/TraffiX.ai/pages/resources" class="navbar-link ">Resources</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/TraffiX.ai/pages/rs/datasets" class="navbar-item ">Datasets</a>
+                            
+                            <a href="/TraffiX.ai/pages/rs/publications" class="navbar-item ">Publications</a>
+                            
+                            <a href="/TraffiX.ai/blog" class="navbar-item ">Blogs</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <a href="/TraffiX.ai/pages/about/" class="navbar-item ">About</a>
+                    
+                
+                
+            </div>
+        </div>
+    </div>
+</nav>
+
+    
+        <section class="hero  is-medium  is-bold is-primary"  style="background: url('/img/hero_image.jpg') no-repeat center center; background-size: cover;" >
+    <div class="hero-body">
+        <div class="container">
+            <p class="title is-2">Page With Sidebar</p>
+            <p class="subtitle is-3">A demo page with a sidebar</p>
+            
+        </div>
+    </div>
+</section>
+    
+    
+
+
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                
+                <div class="column is-8">
+                    
+                    
+                    
+<div class="content">
+    <p>This is a demo page showing the sidebar.</p>
+
+<p>To show the sidebar set show_sidebar to true in the page’s frontmatter.</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">title</span><span class="pi">:</span> <span class="s">Page With Sidebar</span>
+<span class="na">subtitle</span><span class="pi">:</span> <span class="s">A demo page with a sidebar</span>
+<span class="na">layout</span><span class="pi">:</span> <span class="s">page</span>
+<span class="na">show_sidebar</span><span class="pi">:</span> <span class="no">true</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">torch.utils.data</span> <span class="k">as</span> <span class="n">utils</span>
+<span class="kn">import</span> <span class="nn">torch.nn.functional</span> <span class="k">as</span> <span class="n">F</span>
+<span class="kn">import</span> <span class="nn">torch</span>
+<span class="kn">import</span> <span class="nn">torch.nn</span> <span class="k">as</span> <span class="n">nn</span>
+<span class="kn">from</span> <span class="nn">torch.autograd</span> <span class="kn">import</span> <span class="n">Variable</span>
+<span class="kn">from</span> <span class="nn">torch.nn.parameter</span> <span class="kn">import</span> <span class="n">Parameter</span>
+<span class="kn">import</span> <span class="nn">math</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="n">np</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="n">pd</span>
+<span class="kn">import</span> <span class="nn">time</span>
+<span class="kn">import</span> <span class="nn">pickle</span>
+<span class="kn">import</span> <span class="nn">os</span>
+
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="n">plt</span>
+<span class="kn">import</span> <span class="nn">matplotlib.patches</span> <span class="k">as</span> <span class="n">patches</span>
+
+<span class="n">dtype</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">float32</span>
+<span class="k">if</span> <span class="n">torch</span><span class="o">.</span><span class="n">cuda</span><span class="o">.</span><span class="n">is_available</span><span class="p">():</span>
+    <span class="n">device</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">device</span><span class="p">(</span><span class="s">"cuda:1"</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="n">device</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">device</span><span class="p">(</span><span class="s">"cpu"</span><span class="p">)</span>
+
+<span class="n">torch</span><span class="o">.</span><span class="n">cuda</span><span class="o">.</span><span class="n">set_device</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="n">plt</span>
+<span class="o">%</span><span class="n">matplotlib</span> <span class="n">inline</span>  
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">sys</span>
+<span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s">'../'</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">models</span>
+<span class="kn">import</span> <span class="nn">utils</span>
+<span class="kn">import</span> <span class="nn">importlib</span>
+</code></pre></div></div>
+
+<h1 id="load-data">Load data</h1>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">loadDataset</span><span class="p">(</span><span class="n">dataset</span> <span class="o">=</span> <span class="bp">None</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">dataset</span> <span class="o">==</span> <span class="s">'PEMS-BAY'</span><span class="p">:</span>
+        <span class="n">speed_matrix</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_hdf</span><span class="p">(</span><span class="s">'../Data/PEMS-BAY/pems-bay.h5'</span><span class="p">)</span>
+        <span class="n">A</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_pickle</span><span class="p">(</span><span class="s">'../Data/PEMS-BAY/adj_mx_bay.pkl'</span><span class="p">)</span>
+        <span class="n">A</span> <span class="o">=</span> <span class="n">A</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
+        <span class="n">A</span><span class="p">[</span><span class="n">np</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="n">A</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">)]</span> <span class="o">=</span> <span class="mi">1</span>
+        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">A</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]):</span>
+            <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">A</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]):</span>
+                <span class="k">if</span> <span class="n">A</span><span class="p">[</span><span class="n">i</span><span class="p">,</span><span class="n">j</span><span class="p">]</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+                    <span class="n">A</span><span class="p">[</span><span class="n">j</span><span class="p">,</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span>
+    <span class="k">elif</span> <span class="n">dataset</span> <span class="o">==</span> <span class="s">'METR-LA'</span><span class="p">:</span>
+        <span class="n">speed_matrix</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_hdf</span><span class="p">(</span><span class="s">'../Data/METR-LA/metr-la.h5'</span><span class="p">)</span>
+        <span class="n">A</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_pickle</span><span class="p">(</span><span class="s">'../Data/METR-LA/adj_mx.pkl'</span><span class="p">)</span>
+        <span class="n">A</span> <span class="o">=</span> <span class="n">A</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
+        <span class="n">A</span><span class="p">[</span><span class="n">np</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="n">A</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">)]</span> <span class="o">=</span> <span class="mi">1</span>
+        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">A</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]):</span>
+            <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">A</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]):</span>
+                <span class="k">if</span> <span class="n">A</span><span class="p">[</span><span class="n">i</span><span class="p">,</span><span class="n">j</span><span class="p">]</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+                    <span class="n">A</span><span class="p">[</span><span class="n">j</span><span class="p">,</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span>
+    <span class="k">elif</span> <span class="n">dataset</span> <span class="o">==</span> <span class="s">'LOOP-SEA'</span><span class="p">:</span>
+        <span class="n">speed_matrix</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_pickle</span><span class="p">(</span><span class="s">'../Data/LOOP-SEA/speed_matrix_2015_1mph'</span><span class="p">)</span>
+        <span class="n">A</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="s">'../Data/LOOP-SEA/Loop_Seattle_2015_A.npy'</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">print</span><span class="p">(</span><span class="s">'Dataset not found.'</span><span class="p">)</span>
+        <span class="k">return</span> <span class="bp">None</span><span class="p">,</span> <span class="bp">None</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">'Dataset loaded.'</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">speed_matrix</span><span class="p">,</span> <span class="n">A</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">speed_matrix</span><span class="p">,</span> <span class="n">A</span> <span class="o">=</span> <span class="n">loadDataset</span><span class="p">(</span><span class="n">dataset</span> <span class="o">=</span> <span class="s">'PEMS-BAY'</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Dataset loaded.
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">GetDataSequence</span><span class="p">(</span><span class="n">speed_matrix</span><span class="p">,</span> \
+                   <span class="n">BATCH_SIZE</span> <span class="o">=</span> <span class="mi">64</span><span class="p">,</span> \
+                   <span class="n">seq_len</span> <span class="o">=</span> <span class="mi">10</span><span class="p">,</span> \
+                   <span class="n">pred_len</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span> \
+                   <span class="n">train_propotion</span> <span class="o">=</span> <span class="mf">0.7</span><span class="p">,</span> \
+                   <span class="n">valid_propotion</span> <span class="o">=</span> <span class="mf">0.2</span><span class="p">,</span> \
+                   <span class="n">masking</span> <span class="o">=</span> <span class="bp">True</span><span class="p">,</span> \
+                   <span class="n">mask_ones_proportion</span> <span class="o">=</span> <span class="mf">0.8</span><span class="p">):</span>
+   
+    <span class="n">time_len</span> <span class="o">=</span> <span class="n">speed_matrix</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+    
+    <span class="n">speed_matrix</span> <span class="o">=</span> <span class="n">speed_matrix</span><span class="o">.</span><span class="n">clip</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span>
+    
+    <span class="n">max_speed</span> <span class="o">=</span> <span class="n">speed_matrix</span><span class="o">.</span><span class="nb">max</span><span class="p">()</span><span class="o">.</span><span class="nb">max</span><span class="p">()</span>
+    <span class="n">speed_matrix</span> <span class="o">=</span>  <span class="n">speed_matrix</span> <span class="o">/</span> <span class="n">max_speed</span>
+    
+    <span class="n">data_zero_values</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="n">speed_matrix</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+    <span class="n">data_zero_rate</span> <span class="o">=</span> <span class="n">data_zero_values</span> <span class="o">/</span> <span class="p">(</span><span class="n">speed_matrix</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">*</span> <span class="n">speed_matrix</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">'orignal dataset missing rate:'</span><span class="p">,</span> <span class="n">data_zero_rate</span><span class="p">)</span>
+    
+    <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">seed</span><span class="p">(</span><span class="mi">1024</span><span class="p">)</span>
+    <span class="n">Mask</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">choice</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">],</span> <span class="n">size</span><span class="o">=</span><span class="p">(</span><span class="n">speed_matrix</span><span class="o">.</span><span class="n">shape</span><span class="p">),</span> <span class="n">p</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span> <span class="o">-</span> <span class="n">mask_ones_proportion</span><span class="p">,</span> <span class="n">mask_ones_proportion</span><span class="p">])</span>
+    <span class="n">masked_speed_matrix</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">multiply</span><span class="p">(</span><span class="n">speed_matrix</span><span class="p">,</span> <span class="n">Mask</span><span class="p">)</span>
+    <span class="n">Mask</span><span class="p">[</span><span class="n">np</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="n">masked_speed_matrix</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)]</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="n">mask_zero_values</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="n">Mask</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">/</span> <span class="p">(</span><span class="n">Mask</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">*</span> <span class="n">Mask</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">'masked dataset missing rate:'</span><span class="p">,</span> <span class="n">mask_zero_values</span> <span class="p">,</span><span class="s">'(mask zero rate:'</span><span class="p">,</span> <span class="mi">1</span> <span class="o">-</span> <span class="n">mask_ones_proportion</span><span class="p">,</span> <span class="s">')'</span><span class="p">)</span>
+
+    <span class="n">speed_sequences</span><span class="p">,</span> <span class="n">speed_labels</span> <span class="o">=</span> <span class="p">[],</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">time_len</span> <span class="o">-</span> <span class="n">seq_len</span> <span class="o">-</span> <span class="n">pred_len</span><span class="p">):</span>
+        <span class="n">speed_sequences</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">masked_speed_matrix</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">i</span><span class="p">:</span><span class="n">i</span><span class="o">+</span><span class="n">seq_len</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="p">)</span>
+        <span class="n">speed_labels</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">speed_matrix</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="n">seq_len</span><span class="p">:</span><span class="n">i</span><span class="o">+</span><span class="n">seq_len</span><span class="o">+</span><span class="n">pred_len</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="p">)</span>
+    <span class="n">speed_sequences</span><span class="p">,</span> <span class="n">speed_labels</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">asarray</span><span class="p">(</span><span class="n">speed_sequences</span><span class="p">),</span> <span class="n">np</span><span class="o">.</span><span class="n">asarray</span><span class="p">(</span><span class="n">speed_labels</span><span class="p">)</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">'speed_sequences, speed_labels, and Mask are generated.'</span><span class="p">)</span>
+
+    <span class="c1"># Mask sequences
+</span>    <span class="n">Mask</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">ones_like</span><span class="p">(</span><span class="n">speed_sequences</span><span class="p">)</span>
+    <span class="n">Mask</span><span class="p">[</span><span class="n">np</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="n">speed_sequences</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)]</span> <span class="o">=</span> <span class="mi">0</span>
+
+    <span class="k">print</span><span class="p">(</span><span class="s">'time stamps, time intervals, and last observations are generated.'</span><span class="p">)</span>
+
+    <span class="n">speed_sequences</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">expand_dims</span><span class="p">(</span><span class="n">speed_sequences</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+    <span class="n">Mask</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">expand_dims</span><span class="p">(</span><span class="n">Mask</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+    <span class="n">dataset_agger</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">concatenate</span><span class="p">((</span><span class="n">speed_sequences</span><span class="p">,</span> <span class="n">Mask</span><span class="p">,</span> <span class="n">Mask</span><span class="p">,</span> <span class="n">Mask</span><span class="p">),</span> <span class="n">axis</span> <span class="o">=</span> <span class="mi">1</span><span class="p">)</span>
+        
+    <span class="k">return</span> <span class="n">dataset_agger</span><span class="p">,</span> <span class="n">speed_sequences</span><span class="p">,</span> <span class="n">speed_labels</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">dataset_agger</span><span class="p">,</span> <span class="n">speed_sequences</span><span class="p">,</span> <span class="n">speed_labels</span> <span class="o">=</span> <span class="n">GetDataSequence</span><span class="p">(</span><span class="n">speed_matrix</span><span class="p">,</span> \
+                    <span class="n">BATCH_SIZE</span> <span class="o">=</span> <span class="mi">64</span><span class="p">,</span> \
+                    <span class="n">train_propotion</span> <span class="o">=</span> <span class="mf">0.6</span><span class="p">,</span> \
+                    <span class="n">valid_propotion</span> <span class="o">=</span> <span class="mf">0.2</span><span class="p">,</span> \
+                    <span class="n">mask_ones_proportion</span> <span class="o">=</span> <span class="n">mask_ones_proportion</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>orignal dataset missing rate: 3.075978438630983e-05
+masked dataset missing rate: 0.19995176440720996 (mask zero rate: 0.19999999999999996 )
+speed_sequences, speed_labels, and Mask are generated.
+time stamps, time intervals, and last observations are generated.
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">importlib</span><span class="o">.</span><span class="nb">reload</span><span class="p">(</span><span class="n">utils</span><span class="p">)</span>
+<span class="kn">from</span> <span class="nn">utils</span> <span class="kn">import</span> <span class="n">PrepareDataset</span><span class="p">,</span> <span class="n">TrainModel</span><span class="p">,</span> <span class="n">TestModel</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">importlib</span><span class="o">.</span><span class="nb">reload</span><span class="p">(</span><span class="n">utils</span><span class="p">)</span>
+<span class="kn">from</span> <span class="nn">utils</span> <span class="kn">import</span> <span class="n">PrepareDataset</span>
+<span class="n">mask_ones_proportion</span> <span class="o">=</span> <span class="mf">0.8</span>
+<span class="n">train_dataloader</span><span class="p">,</span> <span class="n">valid_dataloader</span><span class="p">,</span> <span class="n">test_dataloader</span><span class="p">,</span> <span class="n">max_speed</span><span class="p">,</span> <span class="n">X_mean</span> <span class="o">=</span> <span class="n">PrepareDataset</span><span class="p">(</span><span class="n">speed_matrix</span><span class="p">,</span> \
+                    <span class="n">BATCH_SIZE</span> <span class="o">=</span> <span class="mi">64</span><span class="p">,</span> \
+                    <span class="n">train_propotion</span> <span class="o">=</span> <span class="mf">0.6</span><span class="p">,</span> \
+                    <span class="n">valid_propotion</span> <span class="o">=</span> <span class="mf">0.2</span><span class="p">,</span> \
+                    <span class="n">mask_ones_proportion</span> <span class="o">=</span> <span class="n">mask_ones_proportion</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>orignal dataset missing rate: 3.075978438630983e-05
+masked dataset missing rate: 0.19995176440720996 (mask zero rate: 0.19999999999999996 )
+speed_sequences, speed_labels, and Mask are generated.
+time stamps, time intervals, and last observations are generated.
+Start to shuffle and split dataset ...
+[19871 28973 45627 ... 47713  9105  6075]
+Finished
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">importlib</span><span class="o">.</span><span class="nb">reload</span><span class="p">(</span><span class="n">utils</span><span class="p">)</span>
+<span class="kn">from</span> <span class="nn">utils</span> <span class="kn">import</span> <span class="n">TrainModel</span><span class="p">,</span> <span class="n">TestModel</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">importlib</span><span class="o">.</span><span class="nb">reload</span><span class="p">(</span><span class="n">models</span><span class="p">)</span>
+<span class="kn">from</span> <span class="nn">models</span> <span class="kn">import</span> <span class="n">GNN</span>
+<span class="n">importlib</span><span class="o">.</span><span class="nb">reload</span><span class="p">(</span><span class="n">utils</span><span class="p">)</span>
+<span class="kn">from</span> <span class="nn">utils</span> <span class="kn">import</span> <span class="n">TrainModel</span><span class="p">,</span> <span class="n">TestModel</span>
+<span class="n">gnn</span> <span class="o">=</span> <span class="n">GNN</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="n">layer</span> <span class="o">=</span> <span class="mi">10</span><span class="p">,</span> <span class="n">gamma</span> <span class="o">=</span> <span class="mf">0.9</span><span class="p">)</span><span class="o">.</span><span class="n">cuda</span><span class="p">()</span>
+<span class="n">gnn</span><span class="o">.</span><span class="n">load_state_dict</span><span class="p">(</span><span class="n">torch</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="s">'./GMN_PEMS-BAY_MR=0.2/GMN10'</span><span class="p">))</span>
+<span class="n">gnn_test</span> <span class="o">=</span> <span class="n">TestModel</span><span class="p">(</span><span class="n">gnn</span><span class="p">,</span> <span class="n">test_dataloader</span><span class="p">,</span> <span class="n">max_speed</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Tested: MAE: 1.201, RMSE : 2.8299999237060547, MAPE : 2.296 %, 
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">W1</span> <span class="o">=</span> <span class="p">(</span><span class="n">gnn</span><span class="o">.</span><span class="n">A1</span> <span class="o">*</span> <span class="n">gnn</span><span class="o">.</span><span class="n">W1</span><span class="p">)</span><span class="o">.</span><span class="n">cpu</span><span class="p">()</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">numpy</span><span class="p">()</span>
+<span class="n">W2</span> <span class="o">=</span> <span class="p">(</span><span class="n">gnn</span><span class="o">.</span><span class="n">A2</span> <span class="o">*</span> <span class="n">gnn</span><span class="o">.</span><span class="n">W2</span><span class="p">)</span><span class="o">.</span><span class="n">cpu</span><span class="p">()</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">numpy</span><span class="p">()</span>
+<span class="n">W3</span> <span class="o">=</span> <span class="p">(</span><span class="n">gnn</span><span class="o">.</span><span class="n">A3</span> <span class="o">*</span> <span class="n">gnn</span><span class="o">.</span><span class="n">W3</span><span class="p">)</span><span class="o">.</span><span class="n">cpu</span><span class="p">()</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">numpy</span><span class="p">()</span>
+<span class="n">W4</span> <span class="o">=</span> <span class="p">(</span><span class="n">gnn</span><span class="o">.</span><span class="n">A4</span> <span class="o">*</span> <span class="n">gnn</span><span class="o">.</span><span class="n">W4</span><span class="p">)</span><span class="o">.</span><span class="n">cpu</span><span class="p">()</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">numpy</span><span class="p">()</span>
+<span class="n">W5</span> <span class="o">=</span> <span class="p">(</span><span class="n">gnn</span><span class="o">.</span><span class="n">A5</span> <span class="o">*</span> <span class="n">gnn</span><span class="o">.</span><span class="n">W5</span><span class="p">)</span><span class="o">.</span><span class="n">cpu</span><span class="p">()</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">numpy</span><span class="p">()</span>
+<span class="n">W6</span> <span class="o">=</span> <span class="p">(</span><span class="n">gnn</span><span class="o">.</span><span class="n">A6</span> <span class="o">*</span> <span class="n">gnn</span><span class="o">.</span><span class="n">W6</span><span class="p">)</span><span class="o">.</span><span class="n">cpu</span><span class="p">()</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">numpy</span><span class="p">()</span>
+<span class="n">W7</span> <span class="o">=</span> <span class="p">(</span><span class="n">gnn</span><span class="o">.</span><span class="n">A7</span> <span class="o">*</span> <span class="n">gnn</span><span class="o">.</span><span class="n">W7</span><span class="p">)</span><span class="o">.</span><span class="n">cpu</span><span class="p">()</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">numpy</span><span class="p">()</span>
+<span class="n">W8</span> <span class="o">=</span> <span class="p">(</span><span class="n">gnn</span><span class="o">.</span><span class="n">A8</span> <span class="o">*</span> <span class="n">gnn</span><span class="o">.</span><span class="n">W8</span><span class="p">)</span><span class="o">.</span><span class="n">cpu</span><span class="p">()</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">numpy</span><span class="p">()</span>
+<span class="n">W9</span> <span class="o">=</span> <span class="p">(</span><span class="n">gnn</span><span class="o">.</span><span class="n">A9</span> <span class="o">*</span> <span class="n">gnn</span><span class="o">.</span><span class="n">W9</span><span class="p">)</span><span class="o">.</span><span class="n">cpu</span><span class="p">()</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">numpy</span><span class="p">()</span>
+<span class="n">W10</span> <span class="o">=</span> <span class="p">(</span><span class="n">gnn</span><span class="o">.</span><span class="n">A10</span> <span class="o">*</span> <span class="n">gnn</span><span class="o">.</span><span class="n">W10</span><span class="p">)</span><span class="o">.</span><span class="n">cpu</span><span class="p">()</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">numpy</span><span class="p">()</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">inputs</span><span class="p">,</span> <span class="n">labels</span> <span class="o">=</span> <span class="nb">next</span><span class="p">(</span><span class="nb">iter</span><span class="p">(</span><span class="n">train_dataloader</span><span class="p">))</span>
+<span class="p">[</span><span class="n">batch_size</span><span class="p">,</span> <span class="n">type_size</span><span class="p">,</span> <span class="n">step_size</span><span class="p">,</span> <span class="n">fea_size</span><span class="p">]</span> <span class="o">=</span> <span class="n">inputs</span><span class="o">.</span><span class="n">size</span><span class="p">()</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">max_speed</span> <span class="o">=</span> <span class="n">speed_matrix</span><span class="o">.</span><span class="nb">max</span><span class="p">()</span><span class="o">.</span><span class="nb">max</span><span class="p">()</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">inputs</span><span class="o">.</span><span class="n">shape</span>
+</code></pre></div></div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>torch.Size([64, 4, 10, 325])
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">dataset_agger</span><span class="o">.</span><span class="n">shape</span>
+</code></pre></div></div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(52105, 4, 10, 325)
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">speed_sequences</span><span class="o">.</span><span class="n">shape</span>
+</code></pre></div></div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(52105, 1, 10, 325)
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">speed_labels</span><span class="o">.</span><span class="n">shape</span>
+</code></pre></div></div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(52105, 1, 325)
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">dataset_agger</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">shape</span>
+</code></pre></div></div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(1, 4, 10, 325)
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">x</span> <span class="o">=</span> <span class="n">dataset_agger</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">2</span><span class="p">]</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">x</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">tensor</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">dtype</span> <span class="o">=</span> <span class="n">dtype</span><span class="p">,</span> <span class="n">device</span> <span class="o">=</span> <span class="n">device</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">day</span> <span class="o">=</span> <span class="mi">16</span>
+<span class="n">sensor_idx</span> <span class="o">=</span> <span class="mi">2</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">dataset_agger</span><span class="p">[</span><span class="mi">288</span> <span class="o">*</span> <span class="n">day</span><span class="p">:</span><span class="mi">288</span> <span class="o">*</span> <span class="p">(</span><span class="n">day</span><span class="o">+</span><span class="mi">1</span><span class="p">),</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="n">sensor_idx</span><span class="p">]</span> <span class="o">*</span> <span class="n">max_speed</span><span class="p">,</span> <span class="s">'.'</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[&lt;matplotlib.lines.Line2D at 0x259241d91d0&gt;]
+</code></pre></div></div>
+
+<p><img src="Plot_Prediction_v1_files/Plot_Prediction_v1_23_1.png" alt="png" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">dataset_agger</span><span class="p">[</span><span class="mi">288</span> <span class="o">*</span> <span class="n">day</span><span class="p">:</span><span class="mi">288</span> <span class="o">*</span> <span class="p">(</span><span class="n">day</span><span class="o">+</span><span class="mi">1</span><span class="p">),</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="n">sensor_idx</span><span class="p">]</span><span class="o">.</span><span class="n">shape</span>
+</code></pre></div></div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(288,)
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">dayofyear</span> <span class="o">=</span> <span class="mi">29</span>
+<span class="n">num_of_day</span> <span class="o">=</span> <span class="mi">7</span>
+<span class="n">pred</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">288</span> <span class="o">*</span> <span class="n">dayofyear</span><span class="p">,</span> <span class="mi">288</span> <span class="o">*</span> <span class="p">(</span><span class="n">dayofyear</span><span class="o">+</span><span class="n">num_of_day</span><span class="p">)):</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="n">dataset_agger</span><span class="p">[</span><span class="n">i</span><span class="p">:</span><span class="n">i</span><span class="o">+</span><span class="mi">2</span><span class="p">]</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">tensor</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">dtype</span> <span class="o">=</span> <span class="n">dtype</span><span class="p">,</span> <span class="n">device</span> <span class="o">=</span> <span class="n">device</span><span class="p">)</span>
+    <span class="n">output</span> <span class="o">=</span> <span class="n">gnn</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">.</span><span class="n">cpu</span><span class="p">()</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">numpy</span><span class="p">()</span> <span class="o">*</span> <span class="n">max_speed</span>
+    <span class="n">pred</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">output</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+<span class="n">pred</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">pred</span><span class="p">)</span>
+<span class="c1"># print(np.array(pred).shape)
+</span><span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">pred</span><span class="p">[:,</span><span class="mi">2</span><span class="p">],</span> <span class="s">'-'</span><span class="p">)</span>
+<span class="n">label</span> <span class="o">=</span> <span class="n">speed_labels</span><span class="p">[</span><span class="mi">288</span> <span class="o">*</span> <span class="n">dayofyear</span><span class="p">:</span><span class="mi">288</span> <span class="o">*</span> <span class="p">(</span><span class="n">dayofyear</span><span class="o">+</span><span class="n">num_of_day</span><span class="p">),</span><span class="mi">0</span><span class="p">]</span> <span class="o">*</span> <span class="n">max_speed</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">label</span><span class="p">[:,</span><span class="mi">2</span><span class="p">])</span>
+</code></pre></div></div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[&lt;matplotlib.lines.Line2D at 0x2592a65b8d0&gt;]
+</code></pre></div></div>
+
+<p><img src="Plot_Prediction_v1_files/Plot_Prediction_v1_25_1.png" alt="png" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">sensor_list</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">speed_matrix</span><span class="o">.</span><span class="n">columns</span><span class="o">.</span><span class="n">values</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">y</span> <span class="o">=</span> <span class="n">label</span>
+<span class="n">y_pred</span> <span class="o">=</span> <span class="n">pred</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">sensor_id</span>  <span class="o">=</span> <span class="mi">10</span>
+<span class="n">y</span> <span class="o">=</span> <span class="n">label</span><span class="p">[:,</span> <span class="n">sensor_id</span><span class="p">]</span> 
+<span class="n">y_pred</span> <span class="o">=</span> <span class="n">pred</span><span class="p">[:,</span> <span class="n">sensor_id</span><span class="p">]</span> 
+
+<span class="n">plt</span><span class="o">.</span><span class="n">style</span><span class="o">.</span><span class="n">use</span><span class="p">(</span><span class="s">'default'</span><span class="p">)</span>
+<span class="n">fig</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">13</span><span class="p">,</span> <span class="mf">2.5</span><span class="p">))</span>
+<span class="n">ax</span> <span class="o">=</span> <span class="n">fig</span><span class="o">.</span><span class="n">add_axes</span><span class="p">([</span><span class="mf">0.05</span><span class="p">,</span><span class="mf">0.22</span><span class="p">,</span><span class="mf">0.92</span><span class="p">,</span><span class="mf">0.75</span><span class="p">])</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">y</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">7</span><span class="o">*</span><span class="mi">288</span><span class="o">-</span><span class="mi">1</span><span class="p">],</span><span class="n">color</span><span class="o">=</span><span class="s">"#006ea3"</span><span class="p">,</span><span class="n">linewidth</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span><span class="n">label</span><span class="o">=</span><span class="s">"Ground truth"</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">y_pred</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">7</span><span class="o">*</span><span class="mi">288</span><span class="o">-</span><span class="mi">1</span><span class="p">],</span><span class="n">color</span><span class="o">=</span><span class="s">"#f79b5f"</span><span class="p">,</span><span class="n">linewidth</span><span class="o">=</span><span class="mf">1.2</span><span class="p">,</span><span class="n">label</span><span class="o">=</span><span class="s">r"Predicted value"</span><span class="p">)</span>
+<span class="c1"># plt.plot(data[0:14*144-1,3],color="#e3120b",linewidth=1.0,label="Estimated value")
+</span><span class="n">ax</span><span class="o">.</span><span class="n">set_xlim</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span> <span class="mi">7</span><span class="o">*</span><span class="mi">288</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_ylim</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span> <span class="mi">80</span><span class="p">])</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">grid</span><span class="p">(</span><span class="n">color</span><span class="o">=</span><span class="s">'gray'</span><span class="p">,</span> <span class="n">linestyle</span><span class="o">=</span><span class="s">'-'</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mf">0.1</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.7</span><span class="p">)</span>
+
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">7</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">i</span> <span class="o">&gt;=</span><span class="mi">5</span> <span class="p">:</span>
+        <span class="n">someX</span><span class="p">,</span> <span class="n">someY</span> <span class="o">=</span> <span class="n">i</span><span class="o">*</span><span class="mi">288</span><span class="p">,</span> <span class="mi">0</span>
+        <span class="n">currentAxis</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">gca</span><span class="p">()</span>
+        <span class="n">ax</span><span class="o">.</span><span class="n">add_patch</span><span class="p">(</span><span class="n">patches</span><span class="o">.</span><span class="n">Rectangle</span><span class="p">((</span><span class="n">someX</span><span class="p">,</span> <span class="n">someY</span><span class="p">),</span> <span class="mi">288</span><span class="p">,</span> <span class="mi">80</span><span class="p">,</span>
+                      <span class="n">alpha</span><span class="o">=</span><span class="mf">0.1</span><span class="p">,</span> <span class="n">facecolor</span><span class="o">=</span><span class="s">'green'</span><span class="p">))</span>
+
+    <span class="n">plt</span><span class="o">.</span><span class="n">axvline</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="n">i</span> <span class="o">*</span> <span class="mi">288</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s">'black'</span><span class="p">,</span> <span class="n">linestyle</span><span class="o">=</span><span class="s">'-'</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mf">0.3</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.8</span><span class="p">)</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">xticks</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">7</span><span class="o">*</span><span class="mi">288</span><span class="p">,</span> <span class="mi">72</span><span class="p">),[</span><span class="s">"00:00"</span><span class="p">,</span> <span class="s">"06:00"</span><span class="p">,</span> <span class="s">"12:00"</span><span class="p">,</span> <span class="s">"18:00"</span><span class="p">,</span>
+            <span class="s">"00:00"</span><span class="p">,</span> <span class="s">"06:00"</span><span class="p">,</span> <span class="s">"12:00"</span><span class="p">,</span> <span class="s">"18:00"</span><span class="p">,</span>
+            <span class="s">"00:00"</span><span class="p">,</span> <span class="s">"06:00"</span><span class="p">,</span> <span class="s">"12:00"</span><span class="p">,</span> <span class="s">"18:00"</span><span class="p">,</span>
+            <span class="s">"00:00"</span><span class="p">,</span> <span class="s">"06:00"</span><span class="p">,</span> <span class="s">"12:00"</span><span class="p">,</span> <span class="s">"18:00"</span><span class="p">,</span>
+            <span class="s">"00:00"</span><span class="p">,</span> <span class="s">"06:00"</span><span class="p">,</span> <span class="s">"12:00"</span><span class="p">,</span> <span class="s">"18:00"</span><span class="p">,</span>
+            <span class="s">"00:00"</span><span class="p">,</span> <span class="s">"06:00"</span><span class="p">,</span> <span class="s">"12:00"</span><span class="p">,</span> <span class="s">"18:00"</span><span class="p">,</span>
+            <span class="s">"00:00"</span><span class="p">,</span> <span class="s">"06:00"</span><span class="p">,</span> <span class="s">"12:00"</span><span class="p">,</span> <span class="s">"18:00"</span><span class="p">],</span> <span class="n">rotation</span><span class="o">=</span><span class="mi">30</span><span class="p">)</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">yticks</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="mi">90</span><span class="p">,</span><span class="mi">10</span><span class="p">),[</span><span class="mi">10</span><span class="p">,</span><span class="mi">20</span><span class="p">,</span><span class="mi">30</span><span class="p">,</span><span class="mi">40</span><span class="p">,</span><span class="mi">50</span><span class="p">,</span><span class="mi">60</span><span class="p">,</span><span class="mi">70</span><span class="p">,</span><span class="mi">80</span><span class="p">])</span>
+
+<span class="n">dow_x_bias</span> <span class="o">=</span> <span class="mi">10</span>
+<span class="n">dow_y</span> <span class="o">=</span> <span class="mi">74</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">text</span><span class="p">(</span><span class="mi">288</span> <span class="o">*</span> <span class="mi">0</span> <span class="o">+</span> <span class="n">dow_x_bias</span><span class="p">,</span> <span class="n">dow_y</span><span class="p">,</span> <span class="s">'Mon.'</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">12</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">text</span><span class="p">(</span><span class="mi">288</span> <span class="o">*</span> <span class="mi">1</span> <span class="o">+</span> <span class="n">dow_x_bias</span><span class="p">,</span> <span class="n">dow_y</span><span class="p">,</span> <span class="s">'Tue.'</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">12</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">text</span><span class="p">(</span><span class="mi">288</span> <span class="o">*</span> <span class="mi">2</span> <span class="o">+</span> <span class="n">dow_x_bias</span><span class="p">,</span> <span class="n">dow_y</span><span class="p">,</span> <span class="s">'Wed.'</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">12</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">text</span><span class="p">(</span><span class="mi">288</span> <span class="o">*</span> <span class="mi">3</span> <span class="o">+</span> <span class="n">dow_x_bias</span><span class="p">,</span> <span class="n">dow_y</span><span class="p">,</span> <span class="s">'Thu.'</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">12</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">text</span><span class="p">(</span><span class="mi">288</span> <span class="o">*</span> <span class="mi">4</span> <span class="o">+</span> <span class="n">dow_x_bias</span><span class="p">,</span> <span class="n">dow_y</span><span class="p">,</span> <span class="s">'Fri.'</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">12</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">text</span><span class="p">(</span><span class="mi">288</span> <span class="o">*</span> <span class="mi">5</span> <span class="o">+</span> <span class="n">dow_x_bias</span><span class="p">,</span> <span class="n">dow_y</span><span class="p">,</span> <span class="s">'Sat.'</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">12</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">text</span><span class="p">(</span><span class="mi">288</span> <span class="o">*</span> <span class="mi">6</span> <span class="o">+</span> <span class="n">dow_x_bias</span><span class="p">,</span> <span class="n">dow_y</span><span class="p">,</span> <span class="s">'Sun.'</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">12</span><span class="p">)</span>
+
+<span class="n">ax</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s">"Speed (mph)"</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">ncol</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span> <span class="n">loc</span><span class="o">=</span><span class="mi">4</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="s">'./Figure/PEMS-BAY_sensorID_'</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">sensor_list</span><span class="p">[</span><span class="n">sensor_id</span><span class="p">])</span> <span class="o">+</span> <span class="s">'_doy_'</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">dayofyear</span><span class="p">)</span> <span class="o">+</span> <span class="s">'to'</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">dayofyear</span><span class="o">+</span><span class="mi">7</span><span class="p">)</span> <span class="o">+</span> <span class="s">'.png'</span><span class="p">,</span> <span class="n">dpi</span> <span class="o">=</span> <span class="mi">300</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">close</span><span class="p">(</span><span class="n">fig</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p><img src="Plot_Prediction_v1_files/Plot_Prediction_v1_28_0.png" alt="png" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># x = dataset_agger[i:i+2]
+# x = torch.tensor(x, dtype = dtype, device = device)
+# output = gnn(x).cpu().data.numpy() * max_speed
+# pred.append(output[0,sensor_idx])
+</span></code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># label = speed_labels[288 * day:288 * (day+1),0,2] * max_speed
+# plt.plot(label)
+</span></code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">dayofyear</span> <span class="o">=</span> <span class="mi">29</span>
+<span class="n">num_of_day</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="n">sensor_idx</span> <span class="o">=</span> <span class="mi">5</span>
+<span class="n">pred</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="n">pred_input</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="c1"># pred_input = []
+</span><span class="n">pred_input_outputs</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="n">mask</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">expand_dims</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">ones_like</span><span class="p">(</span><span class="n">dataset_agger</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">2</span><span class="p">][:,</span><span class="mi">3</span><span class="p">,:,:]),</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">288</span> <span class="o">*</span> <span class="n">dayofyear</span><span class="p">,</span> <span class="mi">288</span> <span class="o">*</span> <span class="p">(</span><span class="n">dayofyear</span><span class="o">+</span><span class="n">num_of_day</span><span class="p">)</span> <span class="o">-</span> <span class="mi">144</span> <span class="p">):</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="n">dataset_agger</span><span class="p">[</span><span class="n">i</span><span class="p">:</span><span class="n">i</span><span class="o">+</span><span class="mi">2</span><span class="p">]</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">tensor</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">dtype</span> <span class="o">=</span> <span class="n">dtype</span><span class="p">,</span> <span class="n">device</span> <span class="o">=</span> <span class="n">device</span><span class="p">)</span>
+    <span class="n">output</span> <span class="o">=</span> <span class="n">gnn</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">.</span><span class="n">cpu</span><span class="p">()</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">numpy</span><span class="p">()</span>
+    <span class="n">pred</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">output</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+    <span class="k">if</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="mi">10</span><span class="p">:</span>
+        <span class="n">pred_input</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">output</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+    <span class="k">else</span><span class="p">:</span>
+<span class="c1">#         pred_input.pop(0)
+#         print(np.array(pred_input).shape)
+#         print(np.array(mask).shape)
+</span>        <span class="n">pred_speed_input</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">concatenate</span><span class="p">((</span><span class="n">np</span><span class="o">.</span><span class="n">expand_dims</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">pred_input</span><span class="p">),</span> <span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">),</span> <span class="n">np</span><span class="o">.</span><span class="n">expand_dims</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">pred_input</span><span class="p">),</span> <span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)),</span> <span class="n">axis</span> <span class="o">=</span> <span class="mi">0</span><span class="p">)</span>
+<span class="c1">#         print(pred_speed_input.shape) 
+</span>        <span class="n">pred_speed_input</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">expand_dims</span><span class="p">(</span><span class="n">pred_speed_input</span><span class="p">,</span> <span class="n">axis</span> <span class="o">=</span> <span class="mi">1</span><span class="p">)</span>
+<span class="c1">#         print(pred_speed_input.shape)
+</span>        <span class="n">pred_input_group</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">concatenate</span><span class="p">((</span><span class="n">pred_speed_input</span><span class="p">,</span> <span class="n">mask</span><span class="p">,</span> <span class="n">mask</span><span class="p">,</span> <span class="n">mask</span><span class="p">),</span> <span class="n">axis</span> <span class="o">=</span> <span class="mi">1</span><span class="p">)</span>
+<span class="c1">#         print(pred_speed_input.shape)
+</span>        <span class="nb">input</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">tensor</span><span class="p">(</span><span class="n">pred_input_group</span><span class="p">,</span> <span class="n">dtype</span> <span class="o">=</span> <span class="n">dtype</span><span class="p">,</span> <span class="n">device</span> <span class="o">=</span> <span class="n">device</span><span class="p">)</span>
+        <span class="n">pred_input_output</span> <span class="o">=</span> <span class="n">gnn</span><span class="p">(</span><span class="nb">input</span><span class="p">)</span><span class="o">.</span><span class="n">cpu</span><span class="p">()</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">numpy</span><span class="p">()</span>
+        <span class="n">pred_input</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">concatenate</span><span class="p">(</span> <span class="p">(</span><span class="n">pred_input</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="mi">10</span><span class="p">],</span> <span class="n">pred_input_output</span><span class="p">[</span><span class="mi">0</span><span class="p">]),</span> <span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+        <span class="n">pred_input_outputs</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">pred_input_output</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+<span class="c1">#     print(output[0,sensor_idx])
+</span><span class="n">pred</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">pred</span><span class="p">)</span>  <span class="o">*</span> <span class="n">max_speed</span>
+<span class="c1"># print(np.array(pred).shape)
+</span><span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">pred</span><span class="p">[:,</span><span class="n">sensor_idx</span><span class="p">])</span>
+<span class="n">label</span> <span class="o">=</span> <span class="n">speed_labels</span><span class="p">[</span><span class="mi">288</span> <span class="o">*</span> <span class="n">dayofyear</span><span class="p">:</span><span class="mi">288</span> <span class="o">*</span> <span class="p">(</span><span class="n">dayofyear</span><span class="o">+</span><span class="n">num_of_day</span><span class="p">)</span> <span class="o">-</span> <span class="mi">144</span><span class="p">,</span><span class="mi">0</span><span class="p">]</span> <span class="o">*</span> <span class="n">max_speed</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">label</span><span class="p">[:,</span><span class="n">sensor_idx</span><span class="p">])</span>
+<span class="n">pred_input_outputs</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">pred_input_outputs</span><span class="p">)</span> <span class="o">*</span> <span class="n">max_speed</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">pred_input_outputs</span><span class="p">[:,</span><span class="n">sensor_idx</span><span class="p">])</span>
+</code></pre></div></div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---------------------------------------------------------------------------
+
+ValueError                                Traceback (most recent call last)
+
+&lt;ipython-input-330-a6a6d087459c&gt; in &lt;module&gt;
+     22         pred_speed_input = np.expand_dims(pred_speed_input, axis = 1)
+     23 #         print(pred_speed_input.shape)
+---&gt; 24         pred_input_group = np.concatenate((pred_speed_input, mask, mask, mask), axis = 1)
+     25 #         print(pred_speed_input.shape)
+     26         input = torch.tensor(pred_input_group, dtype = dtype, device = device)
+
+
+ValueError: all the input arrays must have same number of dimensions
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">label</span><span class="p">[:,</span><span class="n">sensor_idx</span><span class="p">],</span><span class="n">label</span><span class="o">=</span><span class="s">"Ground truth"</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">pred</span><span class="p">[:,</span><span class="n">sensor_idx</span><span class="p">],</span><span class="n">label</span><span class="o">=</span><span class="s">"Predicted"</span><span class="p">)</span>
+<span class="c1"># dataset_agger[0:0+2][0][0]
+</span><span class="n">pred_pred</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">concatenate</span><span class="p">(</span> <span class="p">(</span><span class="n">dataset_agger</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">0</span><span class="o">+</span><span class="mi">2</span><span class="p">][</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="o">*</span> <span class="mi">0</span><span class="p">,</span> <span class="n">pred_input_outputs</span><span class="p">),</span> <span class="n">axis</span> <span class="o">=</span> <span class="mi">0</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">pred_pred</span><span class="p">[:,</span><span class="n">sensor_idx</span><span class="p">],</span><span class="n">label</span><span class="o">=</span><span class="s">"Predicted Predicted"</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
+</code></pre></div></div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;matplotlib.legend.Legend at 0x2592a85abe0&gt;
+</code></pre></div></div>
+
+<p><img src="Plot_Prediction_v1_files/Plot_Prediction_v1_32_1.png" alt="png" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">dataset_agger</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">0</span><span class="o">+</span><span class="mi">2</span><span class="p">][</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>
+</code></pre></div></div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>array([[0.83901293, 0.79670975, 0.82843713, ..., 0.80846063, 0.83548766,
+        0.        ],
+       [0.8413631 , 0.79318449, 0.82961222, ..., 0.80376028, 0.8319624 ,
+        0.7920094 ],
+       [0.        , 0.        , 0.82491187, ..., 0.80376028, 0.        ,
+        0.79788484],
+       ...,
+       [0.82843713, 0.79435958, 0.82961222, ..., 0.80258519, 0.83313749,
+        0.79435958],
+       [0.84018801, 0.79318449, 0.82843713, ..., 0.80258519, 0.83666275,
+        0.80258519],
+       [0.83078731, 0.7920094 , 0.        , ..., 0.80258519, 0.        ,
+        0.79905993]])
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">pred_pred</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">concatenate</span><span class="p">(</span> <span class="p">(</span><span class="n">dataset_agger</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">0</span><span class="o">+</span><span class="mi">2</span><span class="p">][</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">],</span> <span class="n">pred_input_outputs</span><span class="p">),</span> <span class="n">axis</span> <span class="o">=</span> <span class="mi">0</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">pred_pred</span><span class="o">.</span><span class="n">shape</span>
+</code></pre></div></div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(576, 325)
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">pred</span><span class="o">.</span><span class="n">shape</span>
+</code></pre></div></div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(576, 325)
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">np</span><span class="o">.</span><span class="n">arrange</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">10</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---------------------------------------------------------------------------
+
+AttributeError                            Traceback (most recent call last)
+
+&lt;ipython-input-304-ae5f2d208c0b&gt; in &lt;module&gt;
+----&gt; 1 np.arrange(0,10)
+
+
+AttributeError: module 'numpy' has no attribute 'arrange'
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">pred</span><span class="p">[:,</span><span class="n">sensor_idx</span><span class="p">])</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">label</span><span class="p">[:,</span><span class="n">sensor_idx</span><span class="p">])</span>
+<span class="n">pred_input_outputs</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">pred_input_outputs</span><span class="p">)</span> <span class="o">*</span> <span class="n">max_speed</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">pred_input_outputs</span><span class="p">[:,</span><span class="n">sensor_idx</span><span class="p">])</span>
+</code></pre></div></div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[&lt;matplotlib.lines.Line2D at 0x25927667470&gt;]
+</code></pre></div></div>
+
+<p><img src="Plot_Prediction_v1_files/Plot_Prediction_v1_38_1.png" alt="png" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">mask</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">ones_like</span><span class="p">(</span><span class="n">dataset_agger</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">2</span><span class="p">][:,</span><span class="mi">3</span><span class="p">,:,:])</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">mask</span><span class="o">.</span><span class="n">shape</span>
+</code></pre></div></div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(2, 10, 325)
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+</code></pre></div></div>
+
+</div>
+                </div>
+                
+                <div class="column is-4-desktop is-12-tablet">
+                    <p class="title is-4">Latest Posts</p>
+
+<div class="columns is-multiline">
+    
+    <div class="column is-12">
+        <div class="card">
+    
+    <div class="card-image">
+        <img src="https://www.csrhymes.com/img/landing-page.jpg" alt="Introducing some new layouts to Bulma Clean Theme">
+    </div>
+    
+    <div class="card-content">
+        <div class="content">
+            
+            <a class="title is-4" href="/TraffiX.ai/2019/07/23/introducing-some-new-layouts-to-bulma-clean-theme/">Introducing some new layouts to Bulma Clean Theme</a>
+            
+            <p><p>I’ve been meaning to write about some of the new features I have been rolling out to my Jekyll theme, <a href="https://www.csrhymes.com/bulma-clean-theme/">Bulma Clean Theme</a>, for a while but I have only just managed to push the update for the landing page layout last weekend. This article provides some of the thinking behind the updates, as well as a brief introduction to how to get started.</p>
+
+</p>
+        </div>
+        <div class="has-text-centered">
+            <a href="/TraffiX.ai/2019/07/23/introducing-some-new-layouts-to-bulma-clean-theme/" class="button is-primary">Read more</a>
+        </div>
+    </div>
+    <footer class="card-footer">
+        <p class="card-footer-item">Published: Jul 23, 2019</p>
+    </footer>
+</div>
+    </div>
+    
+    <div class="column is-12">
+        <div class="card">
+    
+    <div class="card-image">
+        <img src="https://www.csrhymes.com/img/bulma-clean-theme.jpg" alt="Getting started with Bulma Clean Theme for Jekyll">
+    </div>
+    
+    <div class="card-content">
+        <div class="content">
+            
+            <a class="title is-4" href="/TraffiX.ai/development/2019/02/09/getting-started-with-bulma-clean-theme/">Getting started with Bulma Clean Theme for Jekyll</a>
+            
+            <p><p>I have made a <a href="https://rubygems.org/gems/bulma-clean-theme">theme for Jekyll</a> which is based on the Bulma frontend framework. It might look familiar, because I am also using it for this site. If you like the look of this theme then I thought I would write a little blog post about how to use it for your own site and how you can use it with GitHub Pages.</p>
+
+</p>
+        </div>
+        <div class="has-text-centered">
+            <a href="/TraffiX.ai/development/2019/02/09/getting-started-with-bulma-clean-theme/" class="button is-primary">Read more</a>
+        </div>
+    </div>
+    <footer class="card-footer">
+        <p class="card-footer-item">Published: Feb 9, 2019</p>
+    </footer>
+</div>
+    </div>
+    
+    <div class="column is-12">
+        <div class="card">
+    
+    <div class="card-image">
+        <img src="https://www.csrhymes.com//img/static-site-generator.jpg" alt="Why use a static site generator">
+    </div>
+    
+    <div class="card-content">
+        <div class="content">
+            
+            <a class="title is-4" href="/TraffiX.ai/development/2018/05/28/why-use-a-static-site-generator/">Why use a static site generator</a>
+            
+            <p><p>There are many ways to make a website and many different CMS platforms you can use, such as WordPress and Joomla, as well as site builder tools that offer you drag and drop interfaces, but what about static site generators?</p>
+
+</p>
+        </div>
+        <div class="has-text-centered">
+            <a href="/TraffiX.ai/development/2018/05/28/why-use-a-static-site-generator/" class="button is-primary">Read more</a>
+        </div>
+    </div>
+    <footer class="card-footer">
+        <p class="card-footer-item">Published: May 28, 2018</p>
+    </footer>
+</div>
+    </div>
+    
+</div>
+
+
+
+
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+        <footer class="footer">
+    <div class="container">
+        
+        
+        <div class="columns is-multiline">
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/TraffiX.ai/" class="link">Home</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/TraffiX.ai/blog/" class="link">Blog</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/TraffiX.ai/products/" class="link">Products</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/TraffiX.ai/privacy-policy/" class="link">Privacy Policy</a>
+                </div>
+            </div>
+            
+        </div>
+        
+
+        <div class="content is-small has-text-centered">
+            <p class="">Theme built by <a href="https://www.csrhymes.com">C.S. Rhymes</a></p>
+        </div>
+    </div>
+</footer>
+
+    
+    <script src="/TraffiX.ai/assets/js/app.js" type="text/javascript"></script><!-- footer scripts --><div style="width:200;height:200;display:none">
+        <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?d=MbTq_JHAH8cjWy0qh0VfQj3pvINeej3QmGs8TJsgUuk&cl=ffffff&w=a"></script>
+    </div>
+  </body>
+</html>
+
