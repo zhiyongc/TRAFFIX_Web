@@ -2,7 +2,7 @@
 title: Tutorials
 subtitle: Tutorials on Deep Learning-based Traffic Forecasting
 layout: page
-hero_image: ../../img/SeattleTraffic_2.png
+hero_image: ../../img/SeattleTraffic_2.PNG
 #hero_image: ../../img/gif/traffic_flow.gif
 show_sidebar: false
 mathjax: true
