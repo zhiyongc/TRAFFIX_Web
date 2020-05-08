@@ -1,14 +1,14 @@
 # Site Settings
 
-# theme: bulma-clean-theme
-remote_theme: chrisrhymes/bulma-clean-theme
+theme: bulma-clean-theme
+# remote_theme: chrisrhymes/bulma-clean-theme
 
 title: TraffiX.ai
 tagline: UW
 email: zhiyongc@uw.edu
 description: >
   TraffiX.ai is a Platform for Evaluating and Sharing Traffic Forecasting Datasets and Models
-baseurl: "/TraffiX.ai"
+baseurl: "/TRAFFIX_Web"
 url: ""
 permalink: pretty
 
