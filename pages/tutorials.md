@@ -11,7 +11,19 @@ hide_footer: true
 ---
 
 
-|Chapters|Tutorial Topic|GitHub|NBViewer|CoLab|
+|Chapters|Topic|Tutorial|
+| --- |:---|:---|
+|1|Introduction of Traffic Forecasting|[![](https://img.shields.io/badge/TRAFFIX-Tutorial_1-green?logo=GitHub&style=for-the-badge)](https://github.com/zhiyongc/TRAFFIX/blob/master/1_Introduction%20to%20Traffic%20Forecasting.ipynb)
+|2|Data Introduction & Process |[![](https://img.shields.io/badge/TRAFFIX-Tutorial_2-green?logo=GitHub&style=for-the-badge)](https://github.com/zhiyongc/TRAFFIX/blob/master/2_Data%20Introduction%20%26%20Process.ipynb)|
+|3|Deep Learning Models-1 RNN|![](https://img.shields.io/badge/TRAFFIX-Tutorial%203_Coming_Soon-blue)|
+|4|Deep Learning Models-2 Seq2Seq|![](https://img.shields.io/badge/TRAFFIX-Tutorial%204_Coming_Soon-blue)|
+|5|Deep Learning Models-3 Graph Network|![](https://img.shields.io/badge/TRAFFIX-Tutorial%205_Coming_Soon-blue)|
+|6|Deep Learning Models-4 Conbinations|![](https://img.shields.io/badge/TRAFFIX-Tutorial%206_Coming_Soon-blue)|
+|7|Training & Testing Models|![](https://img.shields.io/badge/TRAFFIX-Tutorial%207_Coming_Soon-blue)|
+|8|Model Evaluation|![](https://img.shields.io/badge/TRAFFIX-Tutorial%208_Coming_Soon-blue)|
+
+<!--- 
+|Chapters| Topic|GitHub|NBViewer|CoLab|
 | --- |:---|:---|:---|:---|
 |1|Introduction of Traffic Forecasting|[![](https://img.shields.io/badge/TRAFFIX-Tutorial_1-green?logo=GitHub&style=for-the-badge)](https://github.com/zhiyongc/TRAFFIX/blob/master/1_Introduction%20to%20Traffic%20Forecasting.ipynb)|[![](https://img.shields.io/badge/TRAFFIX-Tutorial_1-green?logo=Jupyter&style=for-the-badge)](https://nbviewer.jupyter.org/github/zhiyongc/TRAFFIX/blob/master/1_Introduction%20to%20Traffic%20Forecasting.ipynb)|[![](https://img.shields.io/badge/TRAFFIX-Tutorial_1-green?logo=Google&style=for-the-badge)](https://colab.research.google.com/github/zhiyongc/TRAFFIX/blob/master/Run_Demo_Train_LSTM.ipynb)|
 |2|Data Introduction & Process |![](https://img.shields.io/badge/TRAFFIX-Tutorial%202_Coming_Soon-blue)|||
@@ -21,8 +33,7 @@ hide_footer: true
 |6|Deep Learning Models-4 Conbinations|![](https://img.shields.io/badge/TRAFFIX-Tutorial%206_Coming_Soon-blue)|||
 |7|Training & Testing Models|![](https://img.shields.io/badge/TRAFFIX-Tutorial%207_Coming_Soon-blue)|||
 |8|Model Evaluation|![](https://img.shields.io/badge/TRAFFIX-Tutorial%208_Coming_Soon-blue)|||
-
-
+ --->
 <!---
 This is another sample page showing how a page can look without a sidebar. 
 

@@ -1,7 +1,7 @@
 ---
 title: About Us
 subtitle: Our Team and Contact Us
-hero_image: ../../img/SeattleTraffic_2.PNG
+hero_image: ../../img/SeattleTraffic_4.PNG
 layout: page
 #toc: true
 #toc_title: Team
@@ -20,27 +20,41 @@ figure {
 }
 </style>
  -->
-## <span style="font-family:Courier; font-size:1em;">Current Contributors</span>
+## <span style="font-family:Courier; font-size:1em;">Contributors</span>
 
 
 <figure style="display: inline-block;">
-	<img src="../../img/Contributor/Yinhai.jpg" alt="Yinhai Wang" width="120" style="border-radius: 50%;display: inline-block;">
+	<img src="../../img/Contributor/YinhaiWang.jpg" alt="Yinhai Wang" width="120" style="border-radius: 50%;display: inline-block;">
 	<a href="https://www.ce.washington.edu/facultyfinder/yinhai-wang">
 		<figcaption>Yinhai Wang</figcaption>
 	</a>
 </figure>
 
 <figure style="display: inline-block;">
-	<img src="../../img/Contributor/Zhiyong.jpg" alt="Zhiyong Cui" width="120" style="border-radius: 50%;display: inline-block;">
+	<img src="../../img/Contributor/ZhiyongCui.jpg" alt="Zhiyong Cui" width="120" style="border-radius: 50%;display: inline-block;">
 	<a href="https://zhiyongcui.com/">
 		<figcaption>Zhiyong Cui</figcaption>
 	</a>
 </figure>
 
 <figure style="display: inline-block;">
-	<img src="../../img/Contributor/Meixin.jpg" alt="Meixin Zhu" width="120" style="border-radius: 50%;display: inline-block;">
+	<img src="../../img/Contributor/MeixinZhu.jpg" alt="Meixin Zhu" width="120" style="border-radius: 50%;display: inline-block;">
 	<a href="https://meixinzhu.github.io/">
 		<figcaption>Meixin Zhu</figcaption>
+	</a>
+</figure>
+
+<figure style="display: inline-block;">
+	<img src="../../img/Contributor/PengfeiWang.jpg" alt="Meixin Zhu" width="120" style="border-radius: 50%;display: inline-block;">
+	<a href="http://www.uwstarlab.org/">
+		<figcaption>Pengfei Wang</figcaption>
+	</a>
+</figure>
+
+<figure style="display: inline-block;">
+	<img src="../../img/Contributor/YangZhou.jpg" alt="Meixin Zhu" width="120" style="border-radius: 50%;display: inline-block;">
+	<a href="http://www.uwstarlab.org/">
+		<figcaption>Yang Zhou</figcaption>
 	</a>
 </figure>
 

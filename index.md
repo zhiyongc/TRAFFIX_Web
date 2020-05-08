@@ -1,9 +1,9 @@
 ---
 title: TraffiX.ai
 subtitle: TraffiX.ai is a Platform for Evaluating and Sharing Traffic Forecasting Datasets and Models
-#hero_image: img/SeattleTraffic_2.PNG
+hero_image: img/SeattleTraffic_2.PNG
 #hero_image: img/hero_image_1.jpg
-hero_image: img/gif/uber.gif
+#hero_image: img/gif/uber.gif
 layout: page
 hero_link: /pages/getstarted
 hero_link_text: Get Started

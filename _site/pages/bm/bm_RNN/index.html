@@ -141,30 +141,136 @@
 <table>
   <thead>
     <tr>
-      <th>Model</th>
       <th>Dataset</th>
+      <th>Model</th>
+      <th>LR</th>
+      <th>Optm</th>
+      <th>Epoch</th>
       <th>MAE</th>
       <th>MAPE</th>
       <th>RMSE</th>
-      <th>Model Reference</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>GRU</td>
-      <td>LOOP</td>
-      <td>4.58</td>
-      <td>10.34%</td>
-      <td>9.12</td>
-      <td>[<a href="https://en.wikipedia.org/wiki/Gated_recurrent_unit">ref</a>]</td>
+      <td>PEMS-BAY</td>
+      <td>LSTM</td>
+      <td>1.00E-03</td>
+      <td>Adam</td>
+      <td>41</td>
+      <td>1.18</td>
+      <td>2.32%</td>
+      <td>1.94</td>
     </tr>
     <tr>
+      <td> </td>
+      <td>GRU</td>
+      <td>1.00E-03</td>
+      <td>Adam</td>
+      <td>30</td>
+      <td>1.11</td>
+      <td>2.11%</td>
+      <td>1.78</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><span style="color:blue">GCLSTM</span></td>
+      <td>1.00E-02</td>
+      <td>Adam</td>
+      <td>23</td>
+      <td>0.95</td>
+      <td>1.81%</td>
+      <td>1.64</td>
+    </tr>
+    <tr>
+      <td>METR-LA</td>
+      <td><span style="color:blue">LSTM</span></td>
+      <td>1.00E-03</td>
+      <td>Adam</td>
+      <td>56</td>
+      <td>2.76</td>
+      <td>6.18%</td>
+      <td>4.86</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>GRU</td>
+      <td>1.00E-03</td>
+      <td>Adam</td>
+      <td>35</td>
+      <td>2.83</td>
+      <td>6.44%</td>
+      <td>4.93</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>GCLSTM</td>
+      <td>1.00E-02</td>
+      <td>Adam</td>
+      <td>49</td>
+      <td>2.74</td>
+      <td>6.17%</td>
+      <td>5.02</td>
+    </tr>
+    <tr>
+      <td>LOOP-SEA</td>
+      <td><span style="color:blue">LSTM</span></td>
+      <td>1.00E-03</td>
+      <td>Adam</td>
+      <td>39</td>
+      <td>2.43</td>
+      <td>5.78%</td>
+      <td>3.63</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>GRU</td>
+      <td>1.00E-03</td>
+      <td>Adam</td>
+      <td>30</td>
+      <td>2.45</td>
+      <td>5.84%</td>
+      <td>3.64</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>GCLSTM</td>
+      <td>1.00E-02</td>
+      <td>Adam</td>
+      <td>22</td>
+      <td>2.53</td>
+      <td>6.08%</td>
+      <td>3.83</td>
+    </tr>
+    <tr>
+      <td>INRIX-SEA</td>
       <td>LSTM</td>
-      <td>LOOP</td>
-      <td>2.70</td>
-      <td>6.83%</td>
-      <td>4.97</td>
-      <td>[<a href="https://en.wikipedia.org/wiki/Long_short-term_memory">ref</a>]</td>
+      <td>1.00E-04</td>
+      <td>Adam</td>
+      <td>53</td>
+      <td>0.87</td>
+      <td>3.10%</td>
+      <td>1.86</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>GRU</td>
+      <td>1.00E-03</td>
+      <td>Adam</td>
+      <td>31</td>
+      <td>0.88</td>
+      <td>3.18%</td>
+      <td>1.84</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><span style="color:blue">GCLSTM</span></td>
+      <td>1.00E-02</td>
+      <td>Adam</td>
+      <td>14</td>
+      <td>0.77</td>
+      <td>2.74%</td>
+      <td>1.75</td>
     </tr>
   </tbody>
 </table>
